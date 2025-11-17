@@ -35,7 +35,7 @@ const certifications = [
     name: 'Computer Networks',
     color: 'from-orange-500 to-orange-600',
     borderColor: 'border-orange-600',
-    link: '/CN.jpg'
+    link: '/cn.jpg'
   },
   {
     name: 'R Software',
@@ -67,7 +67,6 @@ export default function Certifications() {
                 <p className="text-gray-900 font-bold text-sm leading-tight">{cert.name}</p>
               </div>
 
-              {/* Updated Clickable Certificate Link */}
               <a
                 href={cert.link}
                 target="_blank"
